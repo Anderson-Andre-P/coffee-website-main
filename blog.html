@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon" />
+
+    <!--=============== BOXICONS ===============-->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/header-blog-styles.css" />
+
+    <title>Blog</title>
+  </head>
+  <body>
+    <!--==================== LOADER ====================-->
+    <div class="load" id="load">
+      <img src="./assets/img/loadcoffee.gif" alt="" class="load__gif" />
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">
+          <img src="./assets/img/logo.png" alt="Logo" class="nav__logo-img" />
+          Pingado Cafeteria
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link">Início</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-grid-alt"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Blog Section -->
+    <section class="section blog__container container">
+      <h2 class="section__title">Últimas Postagens</h2>
+
+      <div class="grid blog__content">
+        <!-- Postagem 1 -->
+        <article class="blog__item">
+          <div class="blog__image">
+            <img src="./assets/img/blog2.png" alt="" class="blog__img" />
+
+            <a href="blog-post.html" target="_blank" class="blog__button">
+              <i class="bx bx-right-arrow-alt"></i>
+            </a>
+          </div>
+          <h3 class="blog__title">12 Benefícios de Beber Café</h3>
+          <p class="blog__description">
+            Quem não ama um bom café pela manhã? Essa bebida quentinha e aromática não só nos desperta para um novo dia,
+            mas também oferece uma série de benefícios para a saúde. Neste post, vamos explorar 12 razões pelas quais o
+            café é muito mais do que apenas uma bebida: ele é um verdadeiro elixir da vida!
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Pingado Cafeteria.</h1>
+
+        <div class="footer__content grid">
+          <div class="footer__data">
+            <p class="footer__description">Inscreva-se na nossa Newsletter</p>
+
+            <div class="footer__newsletter">
+              <input type="email" placeholder="Seu endereço de email" class="footer__input" />
+              <button class="footer__button">
+                <i class="bx bx-right-arrow-alt"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="footer__data">
+            <h2 class="footer__subtitle">Endereço</h2>
+
+            <p class="footer__information">
+              Rua Dr. Silvestre Ferraz 112 <br />
+              Centro de itajubá, Minas Gerais
+            </p>
+          </div>
+
+          <div class="footer__data">
+            <h2 class="footer__subtitle">Contatos</h2>
+
+            <p class="footer__information">+55 35 99929-5786</p>
+          </div>
+
+          <div class="footer__data">
+            <h2 class="footer__subtitle">Horário</h2>
+
+            <p class="footer__information">
+              Segunda a Sábado <br />
+              09h - 20h
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__group">
+          <ul class="footer__social">
+            <a href="https://www.instagram.com/pingado.br" target="_blank" class="footer__social-link">
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </ul>
+
+          <span class="footer__copy"> &#169; Pingado Cafeteria. Todos os direitos reservados. </span>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt"></i>
+    </a>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
